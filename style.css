@@ -1,0 +1,78 @@
+.texto-menor {
+    font-size: 16px;
+}
+
+.icone-tamanho {
+    font-size: 50px;
+}
+
+.texto-medio {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.div-facilicidades {
+    width: 325px;
+}
+
+@media (min-width: 768px) {
+    .tamanho-container-cadastro {
+        width: 750px;
+        margin: 20px auto;
+    }
+}
+
+.cor-verde-limao {
+    color: #DAFF01;
+}
+
+.cor-lilas {
+    background-color: #9353FF;
+    color: white;
+    font-weight: 500;
+}
+
+.cor-lilas:hover {
+    background-color: #9353FF;
+}
+
+.texto-principal-item2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.texto-secundario-item2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .texto-principal-item2 {
+        font-size: 32px;
+    }
+    
+    .texto-secundario-item2 {
+        font-size: 16px;
+    }
+}
+
+
+.celular-caption-carrossel {
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+}
+
+.celular-texto-principal{
+    font-size: 32px;
+}
+
+.card-title{
+    font-weight: 500;
+}
